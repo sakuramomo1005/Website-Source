@@ -1,12 +1,17 @@
 ---
-title: "An example preprint / working paper"
+title: "Liver damage, gastrointestinal symptoms and severity of disease in COVID-19"
 authors:
+- Ren, Hong-Gang
+- Safdar, Luqman
+- Blighe, Keven
+- Huo, Nan
 - admin
-date: "2019-04-07T00:00:00Z"
+- etc
+date: "2020-06-018T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-06-018T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -40,7 +45,7 @@ url_source: '#'
 url_video: '#'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""
