@@ -20,7 +20,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Machine Learning, Functional Data Analysis, Microbiome, and Behavioral Economics.
 
-research interests:
+interests:
 - Functional Data Analysis
 - Machine Learning
 - Microbiome
