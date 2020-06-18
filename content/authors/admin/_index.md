@@ -20,7 +20,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
-interests:
+research interests:
 - Functional Data Analysis
 - Machine Learning
 - Microbiome
@@ -37,6 +37,11 @@ education:
   - course: B.A. in International Finance and Statistics
     institution: Capital University of Economics and Business
     year: 2013
+
+fun facts:
+- I am a PADI AOW certified diver
+- I was a competition swimmer
+- I donated all sales from my calligraphy works in two auctions to children health charity foundation
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
