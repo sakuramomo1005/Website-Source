@@ -18,7 +18,7 @@ organizations:
   url: "https://www.nyu.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Machine Learning, Functional Data Analysis, Microbiome, and Behavioral Economics.
 
 research interests:
 - Functional Data Analysis
@@ -29,19 +29,15 @@ research interests:
 education:
   courses:
   - course: Ph.D. in Biostatistics
-    institution: New York University
+    institution: Grossman School of Medicine, New York University
     year: Present
   - course: M.S. in Biostatistics and Data Science
-    institution: Cornell University
+    institution: Weill Cornell Graduate School of Biomedical Sciences, Cornell University
     year: 2018
   - course: B.A. in International Finance and Statistics
-    institution: Capital University of Economics and Business
+    institution: School of Finance, Capital University of Economics and Business
     year: 2013
 
-fun facts:
-- I am a PADI AOW certified diver
-- I was a competition swimmer
-- I donated all sales from my calligraphy works in two auctions to children health charity foundation
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -54,17 +50,17 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/tedddddy_zhang
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/Hanchao-Zhang
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "Hanchao.Zhang@aol.com"
