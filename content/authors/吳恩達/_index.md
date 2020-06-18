@@ -1,42 +1,41 @@
 ---
 # Display name
-title: Hanchao (Ted) Zhang
+title: 吳恩達
 
 # Username (this should match the folder name)
 authors:
-- admin
+- 吳恩達
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Ph.D. Student of Biostatistics
+role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
-- name: New York University
-  url: "https://www.nyu.edu/"
+- name: Stanford University
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Functional Data Analysis
-- Machine Learning
-- Microbiome
-- Behavioral Economics
+- Artificial Intelligence
+- Computational Linguistics
+- Information Retrieval
 
 education:
   courses:
-  - course: Ph.D. in Biostatistics
-    institution: New York University
-    year: Present
-  - course: M.S. in Biostatistics and Data Science
-    institution: Cornell University
-    year: 2018
-  - course: B.A. in International Finance and Statistics
-    institution: Capital University of Economics and Business
-    year: 2013
+  - course: PhD in Artificial Intelligence
+    institution: Stanford University
+    year: 2012
+  - course: MEng in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2009
+  - course: BSc in Artificial Intelligence
+    institution: Massachusetts Institute of Technology
+    year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -45,16 +44,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:Hanchao.Zhang@aol.com'  # For a direct email link, use "mailto:test@example.org".
+  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/tedddddy_zhang
+  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/Hanchao-Zhang
+  link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -62,7 +61,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "Hanchao.Zhang@aol.com"
+email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -71,4 +70,6 @@ user_groups:
 - Visitors
 ---
 
-Hanchao Zhang is a second year Ph.D. student in the Biostatistics Division at Department of Population Health, Sackler institute of Biomedical Sciences, New York University, Grossman School of Medicine.
+吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

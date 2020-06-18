@@ -18,27 +18,45 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Ph.D. Student"
+  company = "Sackler Institute of Biomedical Science, Grossman School of Medicine, New York University"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "New York"
+  date_start = "2019-08-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  research includes:
+
+  * Functional Data
+  * Machine Learning
+  * Survival Analysis
   """
 
+
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Research Assistant"
+  company = "Bloomberg School of Public Health, the Johns Hopkins University"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Baltimore"
+  date_start = "2018-09-02"
+  date_end = "2019-07-01"
+  description = """
+  responsibilities include:
+
+  * Performed data cleaning & manipulation over text data; built automatic data pipeline with python to extract features based on NLP (nltk, gensim)
+  * Customized machine learning model to make prediction based on multiple data sources (NHANES, Universities & Google Search dataset)
+  * Conducted statistical analysis to interpret & optimize model performance based on multiple metrics (ROC, AUC, R-square, confusion matrix)
+  """
+
+
+
+[[experience]]
+  title = "Master Student"
+  company = "Weill Cornell Graduate School of Biomedical Sciences, Cornell University"
+  company_url = ""
+  location = "New York"
+  date_start = "2017-08-30"
+  date_end = "2018-09-01"
+  description = """"""
 
 +++
