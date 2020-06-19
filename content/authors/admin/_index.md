@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Hanchao (Ted) Zhang
+title: Hanchao Zhang
 
 # Username (this should match the folder name)
 authors:
