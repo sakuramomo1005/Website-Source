@@ -1,6 +1,6 @@
 ---
 title: A Machine Learning Algothrim for Removing the Outliers in Functional Data
-date: 2019-07-12
+date: 2020-03-20
 math: true
 diagram: true
 image:
