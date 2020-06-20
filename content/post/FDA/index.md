@@ -7,6 +7,7 @@ image:
   placement: 1
   caption: 'Image generated from: [**R version 3.6.3**](https://unsplash.com/photos/OGZtQF8iC0g)'
 
+
 links:
 - name: Custom Link
   url: http://example.org
