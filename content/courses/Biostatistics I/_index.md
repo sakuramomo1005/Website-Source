@@ -24,22 +24,6 @@ menu:
 ## Flexibility
 
 
-It's a second semester course for statistical inference II.
-
-Reference Books Includes: Statistical Inference Second Edition, george casella roger l. berger
-
-## Resources
-
-Chapter 5 Properties of a Random Sample [Notes](./chapter5.pdf)
-
-Chapter 6 Principles of Data Reduction [Notes](./chapter6.pdf)
-
-Chapter 7 Point Estimation
-
-Chapter 8 Hypothesis Testing
-
-
-
 This feature can be used for publishing content such as:
 
 * **Online courses**
