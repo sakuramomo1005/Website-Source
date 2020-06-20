@@ -48,7 +48,7 @@ url_pdf: http://arxiv.org/pdf/1512.04133v1
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: 'Image credit: [**escalon**](http://escalon.hosted.civiclive.com/emergency_center/c_o_v_i_d-19_response)'
   focal_point: ""
   preview_only: false
 
