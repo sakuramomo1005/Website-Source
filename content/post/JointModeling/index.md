@@ -1,5 +1,5 @@
 ---
-title: Time-dependent ROCs and AUCs for censored endpoints, dynamic prediction via joint modeling and landmarking
+title: Paper Review: Time-dependent ROCs and AUCs for censored endpoints, dynamic prediction via joint modeling and landmarking
 date: 2019-12-20
 math: true
 diagram: true
@@ -14,7 +14,7 @@ url_code: 'https://github.com/Hanchao-Zhang/cross-validation-for-joint-modeling'
 
 
 
-## 1. Introduction 
+## 1. Introduction
 
 In this project, we reviewed papers about time-dependent cox model, *Therneau, T., Crowson, C., & Atkinson, E. (2013). Using time-dependent covariates and time dependent coefficients in the Cox model. Red, 2, 1.*, joint modeling with survival and longitudinal process, *Hsieh, Fushing, Yi-Kuan Tseng, and Jane-Ling Wang. 2006. "Joint Modeling of Survival and Longitudinal Data: Likelihood Approach Revisited." Biometrics 62 (4). Blackwell Publishing Inc: 1037-43.doi:10.1111/j.1541-0420.2006.00570.x.*, landmarking analysis, *Dafni, U. (2011). Landmark analysis at the 25-year landmark point. Circulation: Cardiovascular Quality and Outcomes, 4(3), 363-371.*
 
@@ -31,13 +31,13 @@ Before introducing the time-dependent covariates cox model, we want to refresh o
 
 $$\lambda(t|Z) = \lambda_0(t)\exp\{\beta' Z\} $$
 
-where the baseline hazard $\lambda_0(t)$ depends on time $t$ but not depends on the covariates $Z$ and the hazard ratio $e^{\beta' Z\}$ depends on covariates $Z$ but not depends on time $t$. 
+where the baseline hazard $\lambda_0(t)$ depends on time $t$ but not depends on the covariates $Z$ and the hazard ratio $e^{\beta' Z\}$ depends on covariates $Z$ but not depends on time $t$.
 
 
 
 
 There are cases where if we measure some of the $Z_j$ over time, they may vary ( e.g. biomarkers)  
-Often time, a small fraction of the available biomarker information is used. 
+Often time, a small fraction of the available biomarker information is used.
 One example that motivated the time depends covariates cox model is the Stanford Heart transplant example, where a standard cox model was initially fit without consideration on the time-dependent covariate waiting time to get transplants which can be an important both in inference and prediction, the patients get the transplant earlier might have a higher survival probability due to the better condition of the early-stage patients.
 
 When we have such time-dependent covariates, we might want to modify the cox model so that it can take account for the time-dependent effect on the measured biomarkers. We can rewrite the hazard function where the exponential part was expressed by a linear combination of the covariates that depends on time:
@@ -48,7 +48,7 @@ it looks like a tiny modification, but it has a different meaning when looking a
 
 for the cox model, we are comparing the survival distributions between those patients with different treatment. However, for the time-dependent covariates cox model, we are actually comparing the risk of an event between transplant and non-transplant at each event time, but we re-evaluated each person based on whether they had had a transplant by that time.
 
-Inference proceeds similarly to the Cox model (time-independent), the only difference is that the values of Z now changes at each risk set. 
+Inference proceeds similarly to the Cox model (time-independent), the only difference is that the values of Z now changes at each risk set.
 We can calculate the partial likelihood as follow:
 
 $$\mathcal{L}(\beta) = \prod_{i=1}^n \frac{\exp\{\beta Z_i(T_i)\}}{\sum_{j \in \mathcal{R}(t_i)(\beta' Z_j(T_i) }}\delta_i$$
@@ -83,7 +83,7 @@ $$S_j\{t |\mathcal{M}_i(t, b_j), \theta\} = \exp\{\int_0^t h_0(s)\exp\{\gamma^T 
 
 The joint likelihood function is:
 $$p(y_j, T_i, \delta_i) = \int p(y_i|b_i)\{h(T_i|b_i)^{\delta_i}S(T_i|b_i)\}p(b_i)db_i $$
-The likelihood of the model is derived under the conditional independence assumptions that given the random effects, both longitudinal and event time process are assumed independent, and the longitudinal response of each subject are assumed independent. 
+The likelihood of the model is derived under the conditional independence assumptions that given the random effects, both longitudinal and event time process are assumed independent, and the longitudinal response of each subject are assumed independent.
 
 Estimation of the joint models' parameters can be based either on maximum likelihood or a Bayesian approach using Markov chain Monte Carlo (MCMC) algorithms.
 
@@ -178,7 +178,7 @@ where $\{ n(t)\}^{-1}$ is the number of subjects at riskt at time $t$, $I(T_i > 
 Some facts of the dataset:
 
 1. 285 patients who received a human tissue valve in the aortic position in hospital from 1987 to 2008
-2. 77(27\%) of the patients received a subcoronary implantation(SI) and 208 of the patients received root replacement(RR) 
+2. 77(27\%) of the patients received a subcoronary implantation(SI) and 208 of the patients received root replacement(RR)
 3. 73 of the patients required reoperation and 59 patients had died after operation
 4. Echo examinations were scheduled at 6 months and 1 year postoperatively, and biennially thereafter.
 The aortic gradient was taken at each examination
@@ -197,7 +197,7 @@ we can find that there are minimal differences in the reoperation-free survival 
 
 Where the three models are,
 $$y_i(t) = \beta_1 SI_i + \beta_2 RR_i + \sum_{k=1}^3 \beta_{2k+1} \{ \beta_k(t, \lambda) \times RR_i \} + b_{i0} + \sum_{k=1}^3b_{ik}\beta_k(t, \lambda) + \epsilon_i(t)    $$
-for the longitudinal process, and $M_1$, $M_2$, $M_3$ for the survival process: 
+for the longitudinal process, and $M_1$, $M_2$, $M_3$ for the survival process:
 
 
 $M_1: h_i(t) = h_0(t)\exp\{ \gamma_1 RR_i + \gamma_2 Age_i + \gamma_3 Female_i + \alpha_1 m_i(t)\}$
@@ -238,15 +238,3 @@ $\textbf{Scenario III:} \hspace{2mm} h_i(t) = h_0(t)\exp \{\gamma_1Trt1_i + \alp
 Joint modeling approaches outperform the landmark approaches when there is no misspecification on the time effect on the longitudinal process.
 Landmark approaches outperformed the joint models in a few cases when there is strong misspecification of the time effect.
 Misspecification of the functional form that links the two processes did not seem to particularly influence the performance of the joint modeling and landmark approaches.\cite{rizopoulos2017dynamic}\cite{rizopoulos2014r}\cite{rizopoulos2014combining}
-
-
-
-
-
-
-
-
-
-
-
-
