@@ -7,11 +7,9 @@ image:
   placement: 1
   caption: 'Image generated from: [**R version 3.6.3**](https://unsplash.com/photos/OGZtQF8iC0g)'
 
-
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: ./files/post1.pdf
+url_code: 'https://github.com/Hanchao-Zhang/calibration_and_discrimination_Functional_Data_Analysis'
 ---
 
 

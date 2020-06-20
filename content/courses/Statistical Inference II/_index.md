@@ -30,9 +30,9 @@ Reference Books Includes: Statistical Inference Second Edition, george casella r
 
 ## Resources
 
-[Chapter 5 Properties of a Random Sample Notes](./c5.pdf)
+Chapter 5 Properties of a Random Sample [Notes](./c5.pdf)
 
-[Chapter 6 Principles of Data Reduction Notes](./c6.pdf)
+Chapter 6 Principles of Data Reduction [Notes](./c6.pdf)
 
 Chapter 7 Point Estimation
 
