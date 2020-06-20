@@ -24,7 +24,7 @@ interests:
 - Functional Data Analysis
 - Machine Learning
 - Microbiome
-- Behavioral Economics
+
 
 education:
   courses:
