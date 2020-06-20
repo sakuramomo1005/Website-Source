@@ -1,5 +1,5 @@
 ---
-title: Paper Review: Time-dependent ROCs and AUCs for censored endpoints, dynamic prediction via joint modeling and landmarking 
+title: Paper Review Time-dependent ROCs and AUCs for censored endpoints, dynamic prediction via joint modeling and landmarking 
 date: 2019-12-20
 math: true
 diagram: true
