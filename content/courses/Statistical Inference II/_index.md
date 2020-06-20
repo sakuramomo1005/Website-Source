@@ -1,13 +1,13 @@
 ---
 # Course title, summary, and position.
-linktitle: Statistical Inference II
-summary: Properties of a Random Sample, Principles of Data Reduction, Point Estimation, and Hypothesis Testing
+linktitle: Biostatistics I
+summary: Descriptive statistics, probability, hypothesis testing, and linear model
 weight: 1
 
 # Page metadata.
 title: Overview
-date: "2020-01-09T00:00:00Z"
-lastmod: "2020-01-09T00:00:00Z"
+date: "2019-09-09T00:00:00Z"
+lastmod: "2019-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
