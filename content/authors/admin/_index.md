@@ -29,13 +29,13 @@ interests:
 education:
   courses:
   - course: Ph.D. in Biostatistics
-    institution: Grossman School of Medicine, New York University
+    institution: New York University
     year: Present
   - course: M.S. in Biostatistics and Data Science
-    institution: Weill Cornell Graduate School of Biomedical Sciences, Cornell University
+    institution: Cornell University
     year: 2018
   - course: B.A. in International Finance and Statistics
-    institution: School of Finance, Capital University of Economics and Business
+    institution: Capital University of Economics and Business
     year: 2013
 
 
