@@ -6,12 +6,17 @@ diagram: true
 image:
   placement: 1
   caption: 'Image generated from: [**R version 3.6.3**](https://unsplash.com/photos/OGZtQF8iC0g)'
+
+links:
+- name: Custom Link
+  url: http://example.org
+url_pdf: http://arxiv.org/pdf/1512.04133v1
 ---
 
 
 ## 1. Introduction
 
-The effects of outliers in the functional data analysis are well aware by statisticians in recent years, there have been some works of literature on finding outliers in the functional data. However, most of the literature focused on the detection of the extreme values in the functional data in a univariate case. For example, *Manuel Febrero Environmetrics 2008; 19: 331-345* were focusing on the detection of extreme values that is abnormally large or small compared with the rest of the values. *Ana Arribas-Gil Biostatistics, Volume 15, Issue 4, October 2014* were focusing on the detection of shape outliers (defined by different shape from the rest of the sample). 
+The effects of outliers in the functional data analysis are well aware by statisticians in recent years, there have been some works of literature on finding outliers in the functional data. However, most of the literature focused on the detection of the extreme values in the functional data in a univariate case. For example, *Manuel Febrero Environmetrics 2008; 19: 331-345* were focusing on the detection of extreme values that is abnormally large or small compared with the rest of the values. *Ana Arribas-Gil Biostatistics, Volume 15, Issue 4, October 2014* were focusing on the detection of shape outliers (defined by different shape from the rest of the sample).
 Our method of outlier detection and imputation finds a way to detect the outlier due to the misfunction of the medical devices or detaching of the devices from the patients, which not necessarily produce extreme values or differences in shapes, but a graduate changes of the trend.
 
 Our method was inspired by real data acquired from the Intensive Care Unite. The data was generated from the medical device that attached to the patients' hand or head and measured the oxygen level and carbon dioxide level during the CPR procedure.
@@ -79,7 +84,7 @@ The two examples above show one type of unexpected jumps; some extreme values ge
 
 ```{r, out.width = "200px", echo=F, fig.show='hold', out.width = "50%", fig.align = "center", out.width = "30%"}
 knitr::include_graphics("o9.png")
-knitr::include_graphics("o10.png") 
+knitr::include_graphics("o10.png")
 ```
 
 These two examples of the unexpected jumps due to a large number of outliers is different from the previous ones. The outliers that cause the jump are not extreme values but the value that gradually deviates away from the general trend. The left one has two unexpected peaks around the x-axis at - 1500 and -500. The right one has two unexpected peaks around the x-axis at - 400 and - 200.
@@ -111,25 +116,25 @@ These are the methods that we can use to remove the outliers in the first two sc
     2.0. create a vector $I_i^{wp}$ with all 0 in the vector, such that $|I_i| = n$
 
     2.1. removed the set of observation $\mathcal{A}$ from the whole dataset $\mathcal{D}$ and denote it as $\mathcal{D}_{ij}$, and denote the complementary set of $\mathcal{D}_{ij}$ as $\mathcal{D}_{ij}^c$, where $\mathcal{A} = \{\omega:\omega \in[x_j,x_{j + W_i}] , x_k\in\mathcal{D}\}$, and $k = 1,2,3, \cdots , n$
-    
-    
-    
-    
-    
+
+
+
+
+
     2.2. fit a non-parametric spline using $\mathcal{D}_{ij}$, denote it as $\mathcal{M}_{ij}$
-    
+
     2.3. predit the data $\mathcal{D}_{ij}^c$ using $\mathcal{M}_{ij}$, denote the predicted dataset as $\widetilde{\mathcal{D}_{ij}^c}$
 
     2.4. let $\hat y_k$ and $\tilde y_k$ are eletments in  $\mathcal{D}_{ij}$ and $\widetilde{\mathcal{D}_{ij}^c}$ respectively, let $sd_k$ represent the standard deviation for $\widetilde y_k$ and $I_{ij}^{wp}=I_{ij}^{wp}( |\hat y_k - \tilde y_k| > n \times sd_k )$, where $k = 1,2,3, \cdots,j$
-    
+
     2.5 repeat the step 2.1 to 2.4 until the end of the window approach the last observation
-    
+
 3. calculate the reduced sum of squares $MSE^{wp}_i = \sum_{k=1}^j(\hat y_k - \tilde y_k)^2 I_{ik}$ where $k = 1,2,3, \cdots, j$
 
 4. Go back to step one and repeat for all preset window length and obtain the $MSE_i^{wp}$ and $I_i^{wp}$ for each window length $W_i \subset W$
-    
 
-### 4.3 Voting MSE of from the two models above 
+
+### 4.3 Voting MSE of from the two models above
 
 The voting method is a combined method of the two previous models. By using the voting method, we can get the best parameter by grid searching, which was arbitrary in the previous step.
 
@@ -160,25 +165,25 @@ We developed 7 different ways of imputation. Currently, we would prefer to imput
 
 ```{r, out.width = "200px", echo=F, fig.show='hold', out.width = "50%", fig.align = "center", out.width = "45%"}
 knitr::include_graphics("r1.png")
-knitr::include_graphics("r2.png") 
+knitr::include_graphics("r2.png")
 ```
 
 
 ```{r, out.width = "200px", echo=F, fig.show='hold', out.width = "50%", fig.align = "center", out.width = "45%"}
 knitr::include_graphics("r3.png")
-knitr::include_graphics("r4.png") 
+knitr::include_graphics("r4.png")
 ```
 
 
 ```{r, out.width = "200px", echo=F, fig.show='hold', out.width = "50%", fig.align = "center", out.width = "45%"}
 knitr::include_graphics("r5.png")
-knitr::include_graphics("r6.png") 
+knitr::include_graphics("r6.png")
 ```
 
 
 ```{r, out.width = "200px", echo=F, fig.show='hold', out.width = "50%", fig.align = "center", out.width = "45%"}
 knitr::include_graphics("r7.png")
-knitr::include_graphics("r8.png") 
+knitr::include_graphics("r8.png")
 ```
 
 The first and second columns are the original data; the second and fourth columns are the one after applying the voting methods and imputing outliers using the imputation method mentioned above.
@@ -186,7 +191,7 @@ The first and second columns are the original data; the second and fourth column
 In general, the voting methods removed the outliers and kept the trend we need in the functional data regression and other analyses using cumulated and aggregated measures of the values.
 
 
-## 7. Improvement in prediction 
+## 7. Improvement in prediction
 
 ### 7.1 AUC in original and smoothed data set (processed by the voting method)
 
@@ -197,7 +202,7 @@ We evaluate the AUC using a 5 fold cross-validation. We repeat the 5 fold cross-
 
 ```{r, out.width = "200px", echo=F, fig.show='hold', out.width = "50%", fig.align = "center", out.width = "45%"}
 knitr::include_graphics("e1.png")
-knitr::include_graphics("e2.png") 
+knitr::include_graphics("e2.png")
 ```
 
 
@@ -213,7 +218,7 @@ Since the outcome survival is a rare event, we applied bootstrap on the dataset 
 
 ```{r, out.width = "200px", echo=F, fig.show='hold', out.width = "50%", fig.align = "center", out.width = "45%"}
 knitr::include_graphics("e3.png")
-knitr::include_graphics("e4.png") 
+knitr::include_graphics("e4.png")
 ```
 
 
@@ -232,10 +237,6 @@ To be finished, we purpose to simulate the functional data and the outlier gener
 
 ### 8.2 R function and packages
 
-I would like to wrap up the method and R function, and test the method on more simulation data and generalize this method in terms of more types of outlier detections. 
+I would like to wrap up the method and R function, and test the method on more simulation data and generalize this method in terms of more types of outlier detections.
 
 I would also like to see if there is any other way to improve the method on its computational efficiency.
-
-
-
-
