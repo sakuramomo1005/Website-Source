@@ -22,7 +22,7 @@ Our method of outlier detection and imputation finds a way to detect the outlier
 
 Our method was inspired by real data acquired from the Intensive Care Unite. The data was generated from the medical device that attached to the patients' hand or head and measured the oxygen level and carbon dioxide level during the CPR procedure.
 
-## 2. Obejective
+## 2. Objective
 
 We proposed a voting method to detect different types of outliers in the real data. We then evaluate the algorithm using some simulated data.
 
