@@ -5,7 +5,7 @@ summary: Properties of a Random Sample, Principles of Data Reduction, Point Esti
 weight: 10
 
 # Page metadata.
-title: Overview
+title: Statistical Inference II
 date: "2019-09-09T00:00:00Z"
 lastmod: "2019-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
@@ -17,7 +17,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   example:
-    name: Statistical Inference II
+    name: Overview
     weight: 1
 ---
 
