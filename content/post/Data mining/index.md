@@ -122,6 +122,8 @@ The Elastic net returns to the minimum cv error.
 
 
 
+<center>
+
 | Methods(parameters) | cv-error | 
 |---------|-------|
 | Logistic(Number of covariates = 38) | 0.14 | 
@@ -139,6 +141,7 @@ The Elastic net returns to the minimum cv error.
 | Lasso ($\lambda = 22$) | 0.18 |
 | Ridge ($\lambda = 26$) |0.18 |
 
+</center>
 
 
 

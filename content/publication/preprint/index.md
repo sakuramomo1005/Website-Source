@@ -29,14 +29,14 @@ abstract: Patients with COVID-19 are frequently reported to have liver injuries 
 summary: Liver and GI symptoms lead to prolonged disease progression and higher mortality rates in older COVID-19 patients with a history of smoking. These symptoms may be overlooked during the course of illness but appear to be more insidious than respiratory symptoms in COVID-19 patients.
 
 
-tags:
-- Source Themes
-featured: false
+#tags:
+#- Source Themes
+#featured: false
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+#- name: Custom Link
+#  url: http://example.org
+#url_pdf: http://arxiv.org/pdf/1512.04133v1
 #url_code: '#'
 #url_dataset: '#'
 #url_poster: '#'
@@ -57,17 +57,26 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+#projects:
+#- internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+#slides: example
+
+
+## put it after the --- lines so that i could work
+#{{% alert note %}}
+#Click the *Slides* button above to demo Academic's Markdown slides feature.
+#{{% /alert %}}
+
 ---
 
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
+
+
+
+
+
