@@ -1,10 +1,10 @@
 ---
 title: "Liver damage, gastrointestinal symptoms and severity of disease in COVID-19"
 authors:
-- Ren, Hong-Gang
-- Safdar, Luqman
-- Blighe, Keven
-- Huo, Nan
+- Hong-Gang Ren
+- Luqman Safdar
+- Keven Blighe
+- Nan Huo
 - admin
 - Lanqiu Yao
 - etc
