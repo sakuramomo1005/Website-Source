@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Biostatistics I
 summary: Probability, Descriptive Statistics, Hypothesis Testing, and Linear Model
-weight: 1
+weight: 15
 
 # Page metadata.
 title: Biostatistics I
