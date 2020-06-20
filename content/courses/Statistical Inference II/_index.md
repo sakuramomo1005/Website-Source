@@ -1,8 +1,8 @@
 ---
 # Course title, summary, and position.
-linktitle: Biostatistics I
-summary: Descriptive statistics, probability, hypothesis testing, and linear model
-weight: 1
+linktitle: Statistical Inference II
+summary: Properties of a Random Sample, Principles of Data Reduction, Point Estimation, and Hypothesis Testing
+weight: 10
 
 # Page metadata.
 title: Overview
@@ -30,9 +30,9 @@ Reference Books Includes: Statistical Inference Second Edition, george casella r
 
 ## Resources
 
-Chapter 5 Properties of a Random Sample [Notes](./chapter5.pdf)
+Chapter 5 Properties of a Random Sample [Notes](./c5.pdf)
 
-Chapter 6 Principles of Data Reduction [Notes](./chapter6.pdf)
+Chapter 6 Principles of Data Reduction [Notes](./c6.pdf)
 
 Chapter 7 Point Estimation
 
