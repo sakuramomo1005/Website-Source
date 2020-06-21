@@ -13,7 +13,6 @@ url_code: 'https://github.com/Hanchao-Zhang/cross-validation-for-joint-modeling'
 ---
 
 
-
 ## 1. Introduction
 
 In this project, we reviewed papers about time-dependent cox model, *Therneau, T., Crowson, C., & Atkinson, E. (2013). Using time-dependent covariates and time dependent coefficients in the Cox model. Red, 2, 1.*, joint modeling with survival and longitudinal process, *Hsieh, Fushing, Yi-Kuan Tseng, and Jane-Ling Wang. 2006. "Joint Modeling of Survival and Longitudinal Data: Likelihood Approach Revisited." Biometrics 62 (4). Blackwell Publishing Inc: 1037-43.doi:10.1111/j.1541-0420.2006.00570.x.*, landmarking analysis, *Dafni, U. (2011). Landmark analysis at the 25-year landmark point. Circulation: Cardiovascular Quality and Outcomes, 4(3), 363-371.*
@@ -25,13 +24,20 @@ Apart from the model's section, we also reviewed several papers to evaluate the 
 ## 2. Modelings and Methods
 In this section, we will introduce the three models that we reviewed, we also focused on the differences between the three models and the advantages and disadvantages of the three models.
 
+
 ### 2.1 Time dependent covariates Cox models
 
 Before introducing the time-dependent covariates cox model, we want to refresh our memory on the proportional hazard model (cox model), which we define the hazard function as
 
+
 $$\lambda(t|Z) = \lambda_0(t)\exp\{\beta' Z\} $$
 
+
 where the baseline hazard $\lambda_0(t)$ depends on time $t$ but not depends on the covariates $Z$ and the hazard ratio $e^{\beta' Z\}$ depends on covariates $Z$ but not depends on time $t$.
+
+
+
+
 
 
 
