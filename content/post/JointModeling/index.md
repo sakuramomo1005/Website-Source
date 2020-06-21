@@ -13,6 +13,7 @@ url_code: 'https://github.com/Hanchao-Zhang/cross-validation-for-joint-modeling'
 ---
 
 
+
 ## 1. Introduction
 
 In this project, we reviewed papers about time-dependent cox model, *Therneau, T., Crowson, C., & Atkinson, E. (2013). Using time-dependent covariates and time dependent coefficients in the Cox model. Red, 2, 1.*, joint modeling with survival and longitudinal process, *Hsieh, Fushing, Yi-Kuan Tseng, and Jane-Ling Wang. 2006. "Joint Modeling of Survival and Longitudinal Data: Likelihood Approach Revisited." Biometrics 62 (4). Blackwell Publishing Inc: 1037-43.doi:10.1111/j.1541-0420.2006.00570.x.*, landmarking analysis, *Dafni, U. (2011). Landmark analysis at the 25-year landmark point. Circulation: Cardiovascular Quality and Outcomes, 4(3), 363-371.*
